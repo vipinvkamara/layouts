@@ -1,0 +1,11 @@
+import javafx.scene.chart.PieChart.Data;
+
+
+public class demo {
+
+	public static void main(String[] args) {
+		Data d=new Date();
+		System.out.println(d);
+	}
+
+}

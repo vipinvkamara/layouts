@@ -1,0 +1,5 @@
+#Wed Dec 10 15:23:32 PST 2014
+__DEFAULT__=false
+org.eclipse.sdk.Eclipse.master=true
+org.eclipse.help.ui.localSearch.master=true
+expression=date

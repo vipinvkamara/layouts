@@ -1,0 +1,18 @@
+package calculator;
+
+
+public class calculator {
+
+	public static void main(String[] args) {
+		String s1=GetInput("Enter the value");
+		String s2=getInput("Enter the value");
+		Double d1=Double.parseDouble(s1);		
+		Double d2=Double.parseDouble(s2);
+		Double d3=d1+d2;
+		
+		
+	}
+
+	
+
+}
