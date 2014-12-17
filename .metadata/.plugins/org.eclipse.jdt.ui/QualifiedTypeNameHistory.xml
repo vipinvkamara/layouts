@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="android.R"/>
+<fullyQualifiedTypeName name="com.example.indent.secondActivity"/>
+<fullyQualifiedTypeName name="com.example.indent.MainActivity"/>
+<fullyQualifiedTypeName name="com.example.indent.R.layout"/>
+<fullyQualifiedTypeName name="com.example.indent.ViewActivity"/>
+<fullyQualifiedTypeName name="android.widget.Toast"/>
+<fullyQualifiedTypeName name="com.example.indent.R.id"/>
+<fullyQualifiedTypeName name="com.example.indent.LoginActivity"/>
+<fullyQualifiedTypeName name="android.widget.EditText"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="com.example.registrationform.ThirdActivity"/>
+<fullyQualifiedTypeName name="com.example.registrationform.SecondActivity"/>
+<fullyQualifiedTypeName name="com.example.registrationform.R.id"/>
+<fullyQualifiedTypeName name="android.widget.TextView"/>
+<fullyQualifiedTypeName name="android.view.View"/>
+<fullyQualifiedTypeName name="android.content.Intent"/>
+<fullyQualifiedTypeName name="com.example.registrationform.MainActivity"/>
+</qualifiedTypeNameHistroy>

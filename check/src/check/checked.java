@@ -1,0 +1,11 @@
+package check;
+
+public class checked {
+
+	public static void main(String[] args) {
+		for(;;){
+			System.out.println("vipin vk");
+		}
+	}
+
+}

@@ -1,0 +1,21 @@
+package com.example.registrationform;
+
+import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
+import android.widget.TextView;
+
+public class ThirdActivity extends ActionBarActivity {
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_status);
+		(TextView)findViewById(R.id.activity_view_txtview_login_status).setText(MainActivity.logname)
+	}
+
+
+
+
+
+}
+

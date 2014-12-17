@@ -1,7 +1,6 @@
 package com.example.wooddemo;
 
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
 
 public class MainActivity extends ActionBarActivity {
 
@@ -9,5 +8,10 @@ public class MainActivity extends ActionBarActivity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
+	}
+
+	private void setContentView(int activityMain) {
+		// TODO Auto-generated method stub
+		
 	}
 }

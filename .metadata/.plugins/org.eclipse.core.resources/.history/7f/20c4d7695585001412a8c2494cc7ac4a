@@ -1,0 +1,28 @@
+package com.example.indent;
+
+import android.content.Intent;
+import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
+import android.view.View;
+import android.widget.EditText;
+
+public class LoginActivity extends ActionBarActivity {
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_login);
+	}
+	public void regButtonClicked(View v) {
+		startActivity(new Intent(this,SecondActivity.class));
+		finish();
+	}
+
+	public void  loginButtonClicked(View v) {
+
+		EditText edtxt_Username=(EditText)findViewById(R.id.activity_login_edtTxt_username);
+		EditText edtxt_Password=(EditText)findViewById(R.id.activity_login_edtTxt_password);
+		startActivity(new Intent(this,ViewActivity.class));
+		finish();
+	}
+}

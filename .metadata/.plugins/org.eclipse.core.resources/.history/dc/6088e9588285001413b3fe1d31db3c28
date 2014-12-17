@@ -1,0 +1,41 @@
+package com.example.registrationform;
+
+import android.content.Intent;
+import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
+import android.view.View;
+import android.widget.EditText;
+import android.widget.Toast;
+
+public class SecondActivity extends ActionBarActivity {
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_form);
+
+	}
+	public void onshowtxt(View v) {
+		
+		EditText ed= (EditText)findViewById(R.id.edittxt1);
+		String str=ed.getText().toString();
+		EditText em= (EditText)findViewById(R.id.edittxt2);
+		String email=em.getText().toString();
+		if(str=" "){
+			
+		}
+
+		Toast.makeText(this, "Entered Data is \n"+str,Toast.LENGTH_LONG).show();
+		Toast.makeText(this, "Entered Data is \n"+email,Toast.LENGTH_LONG).show();
+
+	}
+
+	public void onBack(View v){
+		startActivity(new Intent(this,MainActivity.class));
+
+	}
+
+
+
+}
+
